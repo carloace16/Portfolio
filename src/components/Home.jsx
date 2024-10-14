@@ -40,7 +40,10 @@ function Home() {
           whileInView={{ opacity: 1, y: 0 }} // Animate to visible position
           viewport={{
             once: false,
-            amount: section.id === "projects" ? 0.05 : 0.2, // Trigger Projects section earlier
+            amount:
+              section.id === "projects" || section.id === "experience"
+                ? 0.05
+                : 0.2, // Trigger Projects and Experience sections earlier
           }}
           transition={{ duration: 0.8 }} // Control the animation duration
         >
