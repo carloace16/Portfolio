@@ -25,7 +25,7 @@ const Experience = () => {
                 <h3 className="text-xl font-semibold text-white">
                   {experience.title}
                 </h3>
-                <ul className="list-disc list-inside text-gray-300 mt-2">
+                <ul className="list-disc list-inside text-gray-400 mt-2">
                   {experience.description.map((point, index) => (
                     <li key={index} className="mb-2">
                       {point}

@@ -8,7 +8,7 @@ function FeaturedWorkMarquee() {
         {Array.from({ length: 20 }).map((_, index) => (
           <h1
             key={index}
-            className="text-5xl font-bold text-white"
+            className="text-5xl font-bold text-gray-300"
             style={{ padding: "0 20px" }}
           >
             Projects

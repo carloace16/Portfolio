@@ -3,7 +3,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa"; // React Icons package
 
 const Footer = () => {
   return (
-    <footer className=" flex bg-gray-900 text-white py-4 min-h-[10vh] justify-center">
+    <footer className=" flex bg-gray-900 text-gray-300 py-4 min-h-[10vh] justify-center">
       <div className="container mx-auto px-4 flex justify-between items-center">
         {/* Left Side: Copyright */}
         <p className="text-sm">© {new Date().getFullYear()} Carlo Ace Sagad</p>

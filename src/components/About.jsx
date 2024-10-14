@@ -9,7 +9,7 @@ function About() {
       >
         <div className="flex-1 mr-8">
           <h1 className="text-3xl font-bold mb-4">About</h1>
-          <p className="mb-2 mr-20">
+          <p className="mb-2 mr-20 text-gray-400">
             Hello! My name is Ace, and I enjoy creating and developing
             applications.
             <br />
