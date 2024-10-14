@@ -5,11 +5,11 @@ function About() {
     <>
       <div
         id="about"
-        className="flex items-center justify-between p-8 max-w-screen-xl mx-auto m-0 text-white"
+        className="flex flex-col md:flex-row items-center justify-between p-8 max-w-screen-xl mx-auto text-white"
       >
-        <div className="flex-1 mr-8">
-          <h1 className="text-3xl font-bold mb-4">About</h1>
-          <p className="mb-2 mr-20 text-gray-400">
+        <div className="flex-1 mr-8 mb-8 md:mb-0">
+          <h1 className="text-4xl md:text-3xl font-bold mb-4">About</h1>
+          <p className="text-lg md:text-base mb-2 text-gray-400">
             Hello! My name is Ace, and I enjoy creating and developing
             applications.
             <br />
@@ -45,11 +45,11 @@ function About() {
             problems.
           </p>
         </div>
-        <div className="flex-none w-1/4">
+        <div className="flex-none w-full md:w-1/4">
           <img
             src="Profile.jpg" // Replace with the actual path to your profile picture
             alt="Profile"
-            className="w-full h-auto rounded-lg shadow-lg m-20"
+            className="w-2/3 md:w-full h-auto rounded-lg shadow-lg mx-auto" // Adjusted image size for mobile
           />
         </div>
       </div>
