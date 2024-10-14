@@ -17,13 +17,13 @@ const Contact = () => {
       {/* Keep the background for contrast */}
       <h1
         onClick={handleEmailClick}
-        className="text-9xl font-bold text-indigo-400 cursor-pointer 
+        className="text-4xl sm:text-6xl md:text-8xl lg:text-9xl font-bold text-indigo-400 cursor-pointer 
              shadow-2xl hover:shadow-gray-400 transition duration-300 
-             hover:scale-110"
+             hover:scale-110 text-center"
       >
         Connect with Me 📩
       </h1>
-      <p className="mt-10 text-2xl text-gray-400">
+      <p className="mt-10 text-lg sm:text-xl md:text-2xl text-gray-400">
         Click the text above to send me an email!
       </p>
     </div>

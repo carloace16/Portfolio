@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { motion } from "framer-motion";
-import { useLocation } from "react-router-dom"; // Import useLocation for tracking page changes
+import { useLocation } from "react-router-dom";
 import Navbar from "./Navbar";
 import Hero from "./Hero";
 import Marquee from "./FeaturedWorkMarquee";
@@ -24,9 +24,9 @@ function Home() {
   const location = useLocation();
 
   useEffect(() => {
-    // Check if the window is in a new session
+    // Scroll to the top on reload
     if (performance.navigation.type === performance.navigation.TYPE_RELOAD) {
-      window.scrollTo(0, 0); // Scroll to the top on reload
+      window.scrollTo(0, 0);
     }
   }, [location]);
 
@@ -36,10 +36,13 @@ function Home() {
       {sections.map((section) => (
         <motion.div
           key={section.id}
-          initial={{ opacity: 0, y: 100 }} // Start with an offset and hidden
-          whileInView={{ opacity: 1, y: 0 }} // Animate to visible and normal position
-          viewport={{ once: false, amount: 0.2 }} // Controls when animation is triggered
-          transition={{ duration: 0.8 }} // Animation duration
+          initial={{ opacity: 0, y: 100 }} // Start with an offset
+          whileInView={{ opacity: 1, y: 0 }} // Animate to visible position
+          viewport={{
+            once: false,
+            amount: section.id === "projects" ? 0.05 : 0.2, // Trigger Projects section earlier
+          }}
+          transition={{ duration: 0.8 }} // Control the animation duration
         >
           {section.component}
         </motion.div>

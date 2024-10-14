@@ -36,7 +36,7 @@ const ProjectCard = ({ title, description, image, tools, link }) => {
 // Projects Component
 const Projects = () => {
   return (
-    <section id="projects" className="py-0 body-color">
+    <section id="projects" className="py-0">
       <div className="container mx-auto px-6">
         <h1 className="text-7xl font-bold text-center mt-12 mb-20">📁</h1>
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
