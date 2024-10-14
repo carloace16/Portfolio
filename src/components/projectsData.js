@@ -36,7 +36,7 @@ const projects = [
     description:
       "Zip Code Searcher built using a Vite + React App. Users can enter a zip code to fetch and display city information, including state, location, population, and total wages. The app provides a responsive interface, ensuring a seamless experience while searching for relevant city data.",
     image: "Zip code.png", // Replace with actual image URLs
-    tools: ["HTML", "CSS", "JavaScript", "OpenWeather API"],
+    tools: ["React", "HTML", "CSS", "JavaScript", "API"],
     link: "https://lab-react-zip-search.vercel.app/", // Replace with your actual project link
   },
   {
