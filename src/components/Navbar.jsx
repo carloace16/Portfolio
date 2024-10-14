@@ -5,9 +5,9 @@ function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-    <header className="fixed inset-x-0 top-0 z-50">
+    <header className="fixed inset-x-0 top-0 z-50 bg-gradient-to-r from-[#a1c4fd] to-[#c2e9fb]">
       <nav
-        className="navbar-footer-gradient flex items-center justify-between p-2 lg:px-8 bg-gradient-to-r from-[#a1c4fd] to-[#c2e9fb]"
+        className="navbar-footer-gradient flex items-center justify-between p-2 lg:px-8"
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
