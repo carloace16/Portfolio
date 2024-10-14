@@ -2,7 +2,7 @@
 const experiences = [
   {
     id: 1,
-    date: "S2024 - Present",
+    date: "2024 - Present",
     title: "CUNY Tech Prep Web Development Fellow",
     description: [
       "Gained hands-on experience in web development through a rigorous curriculum focused on both front-end and back-end technologies, including React, Tailwind CSS, and Node.js.",
