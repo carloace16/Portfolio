@@ -16,20 +16,28 @@ const projects = [
     link: "https://carloace16.github.io/Drum-Kit-Game-Tap/", // Replace with your actual project link
   },
   {
-    title: "House Moving Web Design",
+    title: "Book Notes",
     description:
-      "Web design project which is a moving services company, showcasing a modern and user-friendly layout. Created with HTML, CSS, and Bootstrap, the design emphasizes responsiveness and accessibility across various devices. The website highlights the aesthetic appeal and functionality of a professional moving service, incorporating engaging visuals and intuitive navigation to enhance the user experience.",
-    image: "House moving web design.png", // Replace with actual image URLs
-    tools: ["HTML", "CSS", "Bootstrap"],
-    link: "https://carloace16.github.io/House-Moving-Web-Design/", // Replace with your actual project link
+      "A web application designed to manage and track personal book notes, built using JavaScript, Express, PostgreSQL, and CSS. Users can add, view, edit, and delete books, along with their ratings, notes, and cover images. The application allows for searching and filtering books based on various criteria. The interface is clean and user-friendly, providing a seamless experience for users to track their reading progress and store notes for each book they've read.",
+    image: "Book-Notes.png", // Replace with actual image URLs
+    tools: [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "Node.js",
+      "Express.js",
+      "EJS",
+      "Postgre SQL",
+    ],
+    link: "https://project-book-notes-ge11.onrender.com/", // Replace with your actual project link
   },
   {
-    title: "Dice Game",
+    title: "Blog Post",
     description:
-      "A dice game web application created with JavaScript, HTML, and CSS. Users click a Play button to roll two dice, displaying random images for each roll. The app determines the winner based on the rolled values, updating the header with the result: Player 1 Wins!, Player 2 Wins!, or Draw! The design is playful and interactive, providing an enjoyable user experience.",
-    image: "Dice-Game.png", // Replace with actual image URLs
-    tools: ["HTML", "CSS", "JavaScript", "jQuery", "DOM"],
-    link: "https://carloace16.github.io/Dice-Game/", // Replace with your actual project link
+      "A blogging web application created with Node.js, Express, and EJS. Users can create, view, edit, and delete blog posts through a dynamic and interactive interface. The application features an API-powered back-end for managing blog data and a front-end rendered using EJS templates. With seamless API integration via Axios, users can perform actions like adding a new post, updating existing ones, or deleting posts directly from the UI. The design is clean and responsive, providing an intuitive experience for managing blog content.",
+    image: "Blog-Post.png", // Replace with actual image URLs
+    tools: ["HTML", "CSS", "JavaScript", "API", "Node.js", "Express.js", "EJS"],
+    link: "https://blog-api-project-njhq.onrender.com/", // Replace with your actual project link
   },
   {
     title: "Zipcode Searcher",
