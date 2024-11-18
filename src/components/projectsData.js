@@ -4,7 +4,16 @@ const projects = [
     description:
       "The CUNY Student Needs Survey is a winning React-based web application created to address student issues like food insecurity and housing instability. This platform enables students to participate in surveys and access resources, identifying critical support gaps across CUNY campuses. It utilizes React, HTML, CSS, and Bootstrap for the front end, with a MySQL back end. The project earned the SWE Best Practices Award for its adherence to industry-standard coding practices and efficient project management.",
     image: "Students-Needs-Survey.png", // Replace with actual image URLs
-    tools: ["React", "Node.js", "Bootstrap", "HTML", "CSS", "MySQL"],
+    tools: [
+      "React",
+      "Node.js",
+      "Bootstrap",
+      "HTML",
+      "CSS",
+      "MySQL",
+      "Front-end",
+      "Back-end",
+    ],
     link: "https://ctp-hacks-code-rangers.vercel.app/", // Replace with your actual project link
   },
   {
@@ -28,6 +37,8 @@ const projects = [
       "Express.js",
       "EJS",
       "Postgre SQL",
+      "Front-end",
+      "Back-end",
     ],
     link: "https://project-book-notes-ge11.onrender.com/", // Replace with your actual project link
   },
@@ -36,7 +47,17 @@ const projects = [
     description:
       "A blogging web application created with Node.js, Express, and EJS. Users can create, view, edit, and delete blog posts through a dynamic and interactive interface. The application features an API-powered back-end for managing blog data and a front-end rendered using EJS templates. With seamless API integration via Axios, users can perform actions like adding a new post, updating existing ones, or deleting posts directly from the UI. The design is clean and responsive, providing an intuitive experience for managing blog content.",
     image: "Blog-Post.png", // Replace with actual image URLs
-    tools: ["HTML", "CSS", "JavaScript", "API", "Node.js", "Express.js", "EJS"],
+    tools: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "API",
+      "Node.js",
+      "Express.js",
+      "EJS",
+      "Front-end",
+      "Back-end",
+    ],
     link: "https://blog-api-project-njhq.onrender.com/", // Replace with your actual project link
   },
   {
