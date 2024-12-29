@@ -1,5 +1,26 @@
 const projects = [
   {
+    title: "EventSphere - Event Management Platform",
+    description:
+      "EventSphere is a full-stack event management platform created to centralize the discovery, sharing, and hosting of local events. Built collaboratively by a team of four, with leadership responsibilities undertaken by me, the project leverages the PERN stack (PostgreSQL, Express.js, React, Node.js) with React Vite for a modern development environment. EventSphere includes features such as personalized event recommendations, event discovery, and easy event hosting. The application integrates PredictHQ and Google APIs for enriched event data, and employs TypeScript alongside JavaScript for type safety and scalability.",
+    image: "popular.png", // Replace with the actual image URL
+    tools: [
+      "PostgreSQL",
+      "Express.js",
+      "React Vite",
+      "Node.js",
+      "TypeScript",
+      "JavaScript",
+      "PredictHQ API",
+      "Google API",
+      "Tailwind CSS",
+      "HTML",
+      "CSS",
+      "Full-stack Development",
+    ],
+    link: "https://event-sphere-kappa.vercel.app/", // Replace with your actual project link
+  },
+  {
     title: "Student Survey Website for CUNY",
     description:
       "The CUNY Student Needs Survey is a winning React-based web application created to address student issues like food insecurity and housing instability. This platform enables students to participate in surveys and access resources, identifying critical support gaps across CUNY campuses. It utilizes React, HTML, CSS, and Bootstrap for the front end, with a MySQL back end. The project earned the SWE Best Practices Award for its adherence to industry-standard coding practices and efficient project management.",
@@ -59,14 +80,6 @@ const projects = [
       "Back-end",
     ],
     link: "https://blog-api-project-njhq.onrender.com/", // Replace with your actual project link
-  },
-  {
-    title: "Zipcode Searcher",
-    description:
-      "Zip Code Searcher built using a Vite + React App. Users can enter a zip code to fetch and display city information, including state, location, population, and total wages. The app provides a responsive interface, ensuring a seamless experience while searching for relevant city data.",
-    image: "Zip code.png", // Replace with actual image URLs
-    tools: ["React", "HTML", "CSS", "JavaScript", "API"],
-    link: "https://lab-react-zip-search.vercel.app/", // Replace with your actual project link
   },
   {
     title: "Simon Game",
