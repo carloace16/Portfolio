@@ -68,7 +68,7 @@ function Navbar() {
             Contact
           </a>
           <a
-            href="/resume latest.pdf"
+            href="/resume.pdf"
             target="_blank"
             rel="noopener noreferrer" // Optional: for security reasons
             className="rounded-md p-2 text-base font-semibold leading-6 bg-indigo-600 text-white shadow-2xl rounded-lg overflow-hidden transition-transform transform hover:scale-105 hover:shadow-gray-800 duration-300 ease-in-out"
