@@ -61,7 +61,7 @@ const projects = [
       "Front-end",
       "Back-end",
     ],
-    link: "https://project-book-notes-ge11.onrender.com/", // Replace with your actual project link
+    link: "https://project-book-notes-c122.onrender.com/", // Replace with your actual project link
   },
   {
     title: "Blog Post",
