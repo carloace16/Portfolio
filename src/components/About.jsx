@@ -10,23 +10,28 @@ function About() {
         <div className="flex-1 mr-8 mb-8 md:mb-0">
           <h1 className="text-4xl md:text-3xl font-bold mb-4">About</h1>
           <p className="text-lg md:text-base mb-2 text-gray-400">
-            Hello! My name is Ace, and I love building applications that create
-            engaging user experiences.
+            Hello! My name is Carlo Ace Sagad, and I&apos;m a passionate
+            full-stack developer who loves creating applications that are both
+            functional and delightful to use. My journey into tech started with
+            a deep curiosity for how software works, which led me to develop a
+            strong skill set in languages and frameworks like JavaScript,
+            Python, Java, React, and Node.js.
             <br />
             <br />
-            My journey into tech started with a fascination for how software
-            works, leading me to develop skills in React, JavaScript, Node.js,
-            HTML, CSS, and more.
+            As a recent graduate with a degree in Computer Science from Queens
+            College, CUNY, I’ve gained hands-on experience and honed my skills
+            through programs like the CUNY Tech Prep Fellowship and The Build
+            Fellowship by Open Avenues. I&apos;m incredibly proud of leading
+            projects like EventSphere, an event management platform, and winning
+            the SWE Best Practices Award at CTP Hacks 2024 for the CUNY Student
+            Needs Survey project.
             <br />
             <br />
-            As a SWE Best Practices Award winner at the 2024 CTP Hackathon and a
-            CUNY Tech Prep Fellow, I’ve gained hands-on experience and honed my
-            ability to work on impactful projects.
-            <br />
-            <br />
-            I’m passionate about both front-end and back-end development and
-            strive to create applications that are not only functional but also
-            delightful to use. Let’s make something amazing together!
+            I&apos;m an end-to-end builder who thrives on solving complex
+            problems, from designing robust backend APIs to crafting engaging
+            user interfaces. I’m always looking to expand my knowledge and apply
+            my skills to impactful projects. Let&apos;s make something amazing
+            together!
           </p>
         </div>
         <div className="flex-none w-full md:w-1/4">
