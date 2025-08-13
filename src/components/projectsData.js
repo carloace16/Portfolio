@@ -1,5 +1,26 @@
 const projects = [
   {
+    title: "Creatorverse - A Content Creator Hub",
+    description:
+      "Creatorverse is a full-stack web application that allows users to curate and manage a personalized list of their favorite content creators. Built with React and Vite, this project demonstrates full CRUD (Create, Read, Update, Delete) functionality. It utilizes Supabase as a Backend-as-a-Service (BaaS) for its PostgreSQL database and instant APIs, enabling rapid development. The user interface is custom-styled with CSS to be clean, modern, and responsive.",
+    image: "creatorverse.png",
+    tools: [
+      "React",
+      "Vite",
+      "Supabase", // Our Backend-as-a-Service
+      "PostgreSQL", // The database used by Supabase
+      "JavaScript",
+      "React Router",
+      "CSS",
+      "HTML",
+      "CRUD Operations",
+      "REST API",
+      "Responsive Design",
+      "Pico.css",
+    ],
+    link: "https://creatorverse-psi.vercel.app/",
+  },
+  {
     title: "EventSphere - Event Management Platform",
     description:
       "EventSphere is a full-stack event management platform created to centralize the discovery, sharing, and hosting of local events. Built collaboratively by a team of four, with leadership responsibilities undertaken by me, the project leverages the PERN stack (PostgreSQL, Express.js, React, Node.js) with React Vite for a modern development environment. EventSphere includes features such as personalized event recommendations, event discovery, and easy event hosting. The application integrates PredictHQ and Google APIs for enriched event data, and employs TypeScript alongside JavaScript for type safety and scalability.",
@@ -80,14 +101,6 @@ const projects = [
       "Back-end",
     ],
     link: "https://blog-api-project-njhq.onrender.com/", // Replace with your actual project link
-  },
-  {
-    title: "Simon Game",
-    description:
-      "A Simon game where players must repeat a sequence of colors and sounds. Built with HTML, CSS, and JavaScript (using jQuery), the game starts when a key is pressed and progresses through levels of increasing difficulty. Players click colored buttons to input their sequence, with feedback provided for correct and incorrect responses, enhancing the interactive experience.",
-    image: "Simon game.png", // Replace with actual image URLs
-    tools: ["HTML", "CSS", "JavaScript", "jQuery", "DOM"],
-    link: "https://carloace16.github.io/Simon-Game/", // Replace with your actual project link
   },
   // Add more projects here
 ];
