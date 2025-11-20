@@ -1,5 +1,26 @@
 const projects = [
   {
+    title: "SeenIt - Watched Media Tracker",
+    description:
+      "SeenIt is a robust full-stack web application designed to help users organize and track their media consumption. Built with the PERN stack (PostgreSQL, Express, React, Node.js), it solves the 'Restart or Skip' dilemma by allowing users to log exactly which seasons and episodes they've watched. The app features secure user authentication, a custom API backend, and a responsive, premium UI styled with Tailwind CSS.",
+    image: "seenit.png",
+    tools: [
+      "React",
+      "Vite",
+      "Node.js",
+      "Express.js",
+      "PostgreSQL",
+      "JavaScript",
+      "React Router",
+      "Tailwind CSS",
+      "Render",
+      "CRUD Operations",
+      "REST API",
+      "Authentication",
+    ],
+    link: "https://seenit-9107.onrender.com/",
+  },
+  {
     title: "Creatorverse - A Content Creator Hub",
     description:
       "Creatorverse is a full-stack web application that allows users to curate and manage a personalized list of their favorite content creators. Built with React and Vite, this project demonstrates full CRUD (Create, Read, Update, Delete) functionality. It utilizes Supabase as a Backend-as-a-Service (BaaS) for its PostgreSQL database and instant APIs, enabling rapid development. The user interface is custom-styled with CSS to be clean, modern, and responsive.",
@@ -84,24 +105,7 @@ const projects = [
     ],
     link: "https://project-book-notes-c122.onrender.com/", // Replace with your actual project link
   },
-  {
-    title: "Blog Post",
-    description:
-      "A blogging web application created with Node.js, Express, and EJS. Users can create, view, edit, and delete blog posts through a dynamic and interactive interface. The application features an API-powered back-end for managing blog data and a front-end rendered using EJS templates. With seamless API integration via Axios, users can perform actions like adding a new post, updating existing ones, or deleting posts directly from the UI. The design is clean and responsive, providing an intuitive experience for managing blog content.",
-    image: "Blog-Post.png", // Replace with actual image URLs
-    tools: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "API",
-      "Node.js",
-      "Express.js",
-      "EJS",
-      "Front-end",
-      "Back-end",
-    ],
-    link: "https://blog-api-project-njhq.onrender.com/", // Replace with your actual project link
-  },
+
   // Add more projects here
 ];
 export default projects;
